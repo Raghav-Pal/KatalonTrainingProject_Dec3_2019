@@ -23,7 +23,7 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_OrangeHRM/input_Us
 
 WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/input_Password_Submit'))
 
-WebUI.verifyTextPresent('Welcome User', false)
+WebUI.verifyTextPresent('Welcome User', false, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/b_Performance'))
 
