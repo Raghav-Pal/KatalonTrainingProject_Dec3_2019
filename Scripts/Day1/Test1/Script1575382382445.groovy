@@ -25,7 +25,7 @@ WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/input_Password_Subm
 
 WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/a_Welcome Admin'))
 
-not_run: WebUI.waitForElementPresent(findTestObject('Page_OrangeHRM/a_Logout'), 5)
+WebUI.waitForElementPresent(findTestObject('Page_OrangeHRM/a_Logout'), 5)
 
 WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/a_Logout'))
 
